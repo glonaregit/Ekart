@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ekart
-          image: 20.253.130.211:8082/shopping-cart:Image-2  #adijaiswal/ekart:latest Image that will be used to containers in the cluster
+          image: 20.253.130.211:8082/shopping-cart:Image-8  #adijaiswal/ekart:latest Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8070 # The port that the container is running on in the cluster
